@@ -10,6 +10,5 @@ public class test3 {
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
 
-
     }
 }
