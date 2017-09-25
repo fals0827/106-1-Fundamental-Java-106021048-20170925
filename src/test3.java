@@ -1,12 +1,14 @@
-// id:106021048
-// name:賴品宇
-// date:2017 09 25
 import java.util.Scanner;
 public class test3 {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        float l = scn.nextFloat();
-        System.out.println(Math.round(l*0.26418f*10f)/10f);
+        String str = scn.nextLine();
+        char chOld = scn.next().charAt(0);
+        char chNew = scn.next().charAt(0);
+        System.out.println(str.replace(chOld,chNew));
+        System.out.println(str.toUpperCase());
+        System.out.println(str.toLowerCase());
+
     }
 }
